@@ -1,0 +1,11 @@
+{
+    "symbols": ["BTCUSDT", "ETHUSDT", "ADAUSDT", "DOGEUSDT", "LINKUSDT", "XRPUSDT", "XLMUSDT"],
+    "timeframes": ["1m", "5m", "15m"],
+    "lookback": 500,
+    "min_confirmations": 3,
+    "alert_confidence_threshold": 75,
+    "volume_multiplier": 1.5,
+    "telegram_bot_token": "8275394714:AAFol1JyvRc8pVp_KVEQsMVzjE8CUhhpeCw",
+    "telegram_chat_id": "1850789024",
+    "sleep_between_symbols": 1.0
+}
