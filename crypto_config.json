@@ -1,12 +1,31 @@
 {
-    "symbols": ["BTCUSDT", "ETHUSDT", "ADAUSDT", "DOGEUSDT", "LINKUSDT", "XRPUSDT", "XLMUSDT"],
-    "timeframes": ["1m", "5m", "15m"],
-    "lookback": 500,
-    "min_confirmations": 2,
-    "alert_confidence_threshold": 50,
-    "volume_multiplier": 1.5,
-    "telegram_bot_token": "8275394714:AAFol1JyvRc8pVp_KVEQsMVzjE8CUhhpeCw",
-    "telegram_chat_id": "1850789024",
-    "sleep_between_symbols": 1.0
-
+  "symbols": ["BTCUSDT", "ETHUSDT", "ADAUSDT", "DOGEUSDT", "LINKUSDT", "XRPUSDT", "XLMUSDT"],
+  "timeframes": ["5m", "15m", "1h"],
+  "lookback": 300,
+  "min_confirmations": 1,
+  "alert_confidence_threshold": 55,
+  "volume_multiplier": 1.1,
+  "sleep_between_symbols": 0.0,
+  "max_workers": 6,
+  "telegram_bot_token": "8275394714:AAFol1JyvRc8pVp_KVEQsMVzjE8CUhhpeCw",
+  "telegram_chat_id": "1850789024",
+  "thresholds": {
+    "rsi_mid": 50,
+    "rsi_overbought": 75,
+    "rsi_oversold": 25,
+    "adx_strong": 20,
+    "macd_min_hist": 0.0
+  },
+  "ema": { "fast": 21, "slow": 55 },
+  "supertrend": { "length": 10, "multiplier": 2.0 },
+  "endpoints": [
+    "https://data-api.binance.vision",
+    "https://api.binance.com",
+    "https://api1.binance.com",
+    "https://api2.binance.com",
+    "https://api3.binance.com"
+  ],
+  "http_timeout": 12,
+  "max_retries": 3,
+  "backoff_seconds": 1.5
 }
