@@ -1,5 +1,5 @@
 {
-  "symbols": ["BTCUSDT", "ETHUSDT", "ADAUSDT", "DOGEUSDT", "LINKUSDT", "XRPUSDT", "XLMUSDT"],
+  "symbols": ["BTCUSDT", "ETHUSDT", "ADAUSDT", "DOGEUSDT", "LINKUSDT"," SOLUSDT", "XRPUSDT", "XLMUSDT"],
   "timeframes": ["5m", "15m", "1h"],
   "lookback": 300,
   "min_confirmations": 1,
